@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.Timer;
 import javax.swing.*;
 
-public class 雙雙對對 {
+public class 雙雙對對v1_0 {
 	JFrame Frame=new JFrame(); 														//頁面
 	JPanel P =new JPanel();		
 	JLabel Bg=new JLabel();		
@@ -44,7 +44,7 @@ public class 雙雙對對 {
 	int Correct=0;																	//計算成功次數
 	Timer timer=new Timer();														//時間
 
-	public 雙雙對對() {
+	public 雙雙對對v1_0() {
 		Frame.setLayout(new GridBagLayout());										//頁面和背景設定
 		Frame.setTitle("翻牌遊戲");
 		Bg=new JLabel(Background);
@@ -183,6 +183,6 @@ public class 雙雙對對 {
 		}
 	}
 	public static void main(String args[]) {										//主執行
-		new 雙雙對對();
+		new 雙雙對對v1_0();
 	}
 }
